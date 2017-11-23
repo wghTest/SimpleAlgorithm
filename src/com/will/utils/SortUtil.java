@@ -43,4 +43,17 @@ public class SortUtil {
 		}
 		return param;
 	}
+	
+	/**
+	 * 冒泡排序--从小到大
+	 * 每一遍找到最小的和第一个数（未排好的）交换
+	 * @param param
+	 * @return
+	 */
+	public static int[] sortByBubbling(int[] param) {
+		for (int i = 0;i < param.length;i ++) {
+			//TODO 未完成
+		}
+		return param;
+	}
 }
