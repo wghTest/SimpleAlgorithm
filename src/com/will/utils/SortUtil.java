@@ -52,7 +52,13 @@ public class SortUtil {
 	 */
 	public static int[] sortByBubbling(int[] param) {
 		for (int i = 0;i < param.length;i ++) {
-			//TODO 未完成
+			for (int j = 0;j <param.length - i - 1;j ++) {
+				if (param[j] > param[j + 1]) {
+					int temp = param[j];
+					param[j] = param[j + 1];
+					param[j + 1] = temp;
+				}
+			}
 		}
 		return param;
 	}
